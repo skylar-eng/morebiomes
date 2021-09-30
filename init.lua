@@ -4,9 +4,9 @@ local modpath = minetest.get_modpath("morebiomes")
 
 minetest.register_biome({
     name = 'luna',
-    node_top = 'default:silver_sand',
+    node_top = 'default:gravel',
     depth_top = 3,
-    node_filler = 'default:gravel',
+    node_filler = 'default:silver_sand',
     depth_filler = 9,
     node_stone = 'default:stone',
     y_max = 255,
