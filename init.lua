@@ -17,3 +17,20 @@ minetest.register_biome({
     heat_point = 30,
     humidity_point = 90,
 })
+
+
+minetest.register_biome({
+    name = 'floodbasalt',
+        node_top = 'default:lava_source',
+        depth_top = 6,
+        node_filler = 'default:obsidian',
+        depth_filler = 1,
+        node_stone = 'default:stone',
+        node_water_top = 'default:obsidian',
+        node_water = 'default:sand',
+        y_max = 511,
+        y_min = -511,
+        vertical blend = 2,
+        heat_point = 25,
+        humidity_point = 75,
+})
