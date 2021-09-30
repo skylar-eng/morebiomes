@@ -1,4 +1,4 @@
-local modpath = minetest.get_modpath("terra_grande")
+local modpath = minetest.get_modpath("morebiomes")
 
 ---- Biomes ----
 
