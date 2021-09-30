@@ -9,6 +9,8 @@ minetest.register_biome({
     node_filler = 'default:silver_sand',
     depth_filler = 9,
     node_stone = 'default:stone',
+    node_water_top = 'default:silver_sand',
+    node_water = 'default:gravel',
     y_max = 255,
     y_min = -255,
     vertical_blend = 12,
