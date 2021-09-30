@@ -1,2 +1,2 @@
-# terra-grande
-A Minetest Mod adding extra biomes and materials.
+# morebiomes
+A simple mod adding extra biomes to Minetest Game
