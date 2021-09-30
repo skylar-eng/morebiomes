@@ -30,7 +30,7 @@ minetest.register_biome({
         node_water = 'default:sand',
         y_max = 511,
         y_min = -511,
-        vertical blend = 2,
+        vertical_blend = 2,
         heat_point = 25,
         humidity_point = 75,
 })
