@@ -58,7 +58,7 @@ minetest.register_biome({
     node_filler = 'default:coalblock',
     depth_filler = 7,
     node_stone = 'default:stone_with_coal',
-    y_max = 12,
+    y_max = 48,
     y_min = -511,
     vertical_blend = 1,
     heat_point = 85,
