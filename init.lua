@@ -37,7 +37,7 @@ minetest.register_biome({
 
 
 minetest.register_biome({
-    name = 'glassland'
+    name = 'glassland',
     node_top = 'default:glass',
     depth_top = 9,
     node_filler = 'default:sand',
