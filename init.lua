@@ -79,3 +79,15 @@ minetest.register_biome({
     heat_point = 35,
     humidity_point = 0,
 })
+
+
+minetest.register_ore({
+   ore_type       = "scatter",
+   ore            = "default:stone_with_tin",
+   wherein        = "default:silver_sand",
+   clust_scarcity = 7*7*7,
+   clust_num_ores = 8,
+   clust_size     = 3,
+   height_min     = -255,
+   height_max     = 255,
+})
