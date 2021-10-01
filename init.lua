@@ -31,8 +31,8 @@ minetest.register_biome({
     y_max = 49,
     y_min = -49,
     vertical_blend = 2,
-    heat_point = 25,
-    humidity_point = 75,
+    heat_point = 100,
+    humidity_point = 15,
 })
 
 
@@ -46,7 +46,7 @@ minetest.register_biome({
     y_max = 255,
     y_min = -255,
     vertical_blend = 12,
-    heat_point = 40,
+    heat_point = 50,
     humidity_point = 0,
 })
 
@@ -61,6 +61,21 @@ minetest.register_biome({
     y_max = 12,
     y_min = -511,
     vertical_blend = 1,
-    heat_point = 30,
-    humidity_point = 90,
+    heat_point = 85,
+    humidity_point = 50,
+})
+
+
+minetest.register_biome({
+    name = 'pink',
+    node_top = 'wool:magenta',
+    depth_top = 3,
+    node_filler = 'default:stone_with_gold',
+    depth_filler = 1,
+    node_stone = 'default:stone_with_diamond',
+    y_max = 120,
+    y_min = -511,
+    vertical_blend = 5,
+    heat_point = 35,
+    humidity_point = 0,
 })
