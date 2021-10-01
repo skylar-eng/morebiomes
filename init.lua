@@ -34,3 +34,17 @@ minetest.register_biome({
         heat_point = 25,
         humidity_point = 75,
 })
+
+minetest.register_biome({
+name = 'glassland'
+node_top = 'default:glass',
+depth_top = 9,
+node_filler = 'default:sand',
+depth_filler = 10,
+node_stone = 'default:stone',
+y_max = 255,
+y_min = -255,
+vertical_blend = 12,
+heat_point = 40,
+humidity_point = 0,
+})
