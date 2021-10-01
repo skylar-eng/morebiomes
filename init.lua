@@ -111,7 +111,7 @@ minetest.register_decoration({
     deco_type = 'simple',
     place_on = {'default:dirt'},
     sidelen = 4,
-    fill_ratio = 0.02
+    fill_ratio = 0.02,
     noise_params = {offset=0, scale=.45, spread={x=100, y=100, z=100}, seed=354, octaves=3, persist=0.7},
     biomes = {"marsh"},
     decoration = "default:jungle_tree",
