@@ -16,3 +16,6 @@ Yep. You read that right. Glassland is a biome, made of glass. It my evolve in t
 # coalfire
 Have you heard about coal seam fires? There is a coal seam fire in, I think in Pennsylvania that will keep burning for 200 more years.
 This biome is basically just a giant coal seam fire. Coalblock, on fire, underneath it is a large amount of coal ore. It will likely evolve in the future.
+
+# pink
+Pink. Nuff said. There's a surprise under the pink though.
