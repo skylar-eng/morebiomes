@@ -91,3 +91,28 @@ minetest.register_ore({
    height_min     = -255,
    height_max     = 255,
 })
+
+
+minetest.register_biome({
+    name = 'marsh',
+    node_top = 'default:water_source',
+    depth_top = 1,
+    node_filler = 'default:dirt',
+    depth_filler = 10,
+    node_stone = 'default:sand',
+    y_max = 3,
+    y_min = -20,
+    vertical_blend = 0,
+    heat_point = 40,
+    humidity_point = 100,
+})
+
+minetest.register_decoration({
+    deco_type = 'simple',
+    place_on = {'default:dirt'},
+    sidelen = 4,
+    fill_ratio = 0.02
+    noise_params = {offset=0, scale=.45, spread={x=100, y=100, z=100}, seed=354, octaves=3, persist=0.7},
+    biomes = {"marsh"},
+    decoration = "default:jungle_tree",
+})
