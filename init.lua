@@ -94,13 +94,13 @@ minetest.register_ore({
 
 
 minetest.register_biome({
-    name = 'marsh',
-    node_top = 'default:water_source',
+    name = 'bamboo_firest',
+    node_top = 'default:dirt_with_grass',
     depth_top = 1,
     node_filler = 'default:dirt',
     depth_filler = 10,
-    node_stone = 'default:sand',
-    y_max = 3,
+    node_stone = 'default:stone',
+    y_max = 64,
     y_min = -20,
     vertical_blend = 0,
     heat_point = 40,
@@ -109,10 +109,10 @@ minetest.register_biome({
 
 minetest.register_decoration({
     deco_type = 'simple',
-    place_on = {'default:dirt'},
+    place_on = {'default:dirt_with_grass'},
     sidelen = 4,
     fill_ratio = 0.02,
     noise_params = {offset=0, scale=.45, spread={x=100, y=100, z=100}, seed=354, octaves=3, persist=0.7},
-    biomes = {"marsh"},
-    decoration = "default:jungle_tree",
+    biomes = {"bamboo_forest"},
+    decoration = "default:papyrus",
 })
