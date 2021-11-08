@@ -19,3 +19,4 @@ This biome is basically just a giant coal seam fire. Coalblock, on fire, underne
 
 # pink
 Pink. Nuff said. There's a surprise under the pink though.
+This is largely a test biome. New features will be tested here, probably isn't suited for actual gameplay.
