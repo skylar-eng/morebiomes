@@ -1,5 +1,6 @@
 # morebiomes
 A simple mod adding extra biomes to Minetest Game
+As of right now, these biomes are all WIP
 
 # luna
 It is a desolate landscape composed primarily of gravel, silver sand and stone.
